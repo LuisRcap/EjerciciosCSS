@@ -1,11 +1,17 @@
-body
+/*
+######## SELECTORES ########
+*/
+
+/*Selector universal*/
+*
 {
-    background: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-h1
-{
-    color: red;
-    font-size: 50px;
-    text-shadow: 0px 0px 10px black;
-    text-decoration: underline;
-}
+
+/*Selector de etiqueta*/
+
+/*Selector de id*/
+
+/*Selector de clase*/
+
+/*Selector de atributo*/
