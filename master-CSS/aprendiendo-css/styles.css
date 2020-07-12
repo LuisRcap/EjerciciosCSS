@@ -98,3 +98,9 @@ input[type="submit"]
     border: 1px solid black;
     cursor: pointer;
 }
+
+/*Selector hijo*/
+#menu > li > a
+{
+    color: red;
+}
