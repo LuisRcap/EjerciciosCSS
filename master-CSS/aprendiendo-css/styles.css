@@ -31,6 +31,39 @@ footer a
 
 /*Selector de id*/
 
+#descripcion,
+#titulo
+{
+    border: 5px solid black;
+    padding: 15px;
+}
+
+#titulo
+{
+    background: blue;
+    border: 2px dashed white;
+}
+
 /*Selector de clase*/
+
+.parrafo
+{
+    font-style: italic;
+    /*text-decoration: underline;*/
+    font-weight: bold;
+    padding: 10px;
+}
+
+.parrafo1
+{
+    background-color: green;
+    color: white;
+}
+
+.parrafo3
+{
+    background-color: orange;
+    color: black;
+}
 
 /*Selector de atributo*/
