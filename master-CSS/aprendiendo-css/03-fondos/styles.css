@@ -1,0 +1,26 @@
+body
+{
+    background-color: #cccccc;
+    background-image: url(img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: right bottom;
+    color: white;
+}
+
+#caja
+{
+    border: 5px solid black;
+    padding: 10px;
+    background-color: rgba(54, 29, 199, 0.808);
+    color: white;
+}
+
+h2
+{
+    color: white;
+    background-color: white;
+    background-image: url(img/patron1.jpg);
+    border: 5px solid red;
+}
