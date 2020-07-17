@@ -1,12 +1,16 @@
 body
 {
     background-color: #cccccc;
-    background-image: url(img/fondo1.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    background-position: right bottom;
-    color: white;
+    /*background-image: url(img/fondo1.jpg);
+    background-repeat: no-repeat; /*Para que no se repita en el fondo (sirve para imágenes de lata definición y no de patrones)*/
+    /*background-size: 100% 100%; /*Para que la imágen sea de su tamaño original*/
+    /*background-attachment: fixed; /*Para que la imágen no se mueva y sólo se mueva el texto al hacer scroll*/
+    /*background-position: right bottom; /*Para posicionar la imagen en la pantalla*/
+    color: black;
+    text-align: justify;
+    text-indent: 15px;
+    /*word-spacing: 10px;
+    letter-spacing: 5px;*/
 }
 
 #caja
@@ -15,6 +19,11 @@ body
     padding: 10px;
     background-color: rgba(54, 29, 199, 0.808);
     color: white;
+    font-family: "Open Sans";
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    vertical-align: top;
 }
 
 h2
