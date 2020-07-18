@@ -9,9 +9,15 @@ body
     padding: 40px;
 }
 
+#cajas
+{
+    max-width: 1032px; /*Esto es para que sólo se repitan las cajas en ese máximo de ancho*/
+    border: 1px solid black;
+}
+
 .caja
 {
-    display: block;
+    display: block; /*Para que un texto que pertenece a esta clase, se ponga como caja*/
     width: 250px;
     height: 250px;
     background-color: lightblue;
