@@ -10,7 +10,7 @@ Ejercicio completo con HTML y CSS
     centrado
 (*) 5. El menú debe tener los elementos uno al lado del otro.
 (*) 6. El contenido principal debe tener un ancho del 70%.
-7. El contenido dentro del contenedor principal debe ser
+(*) 7. El contenido dentro del contenedor principal debe ser
     una cuadrícula con 4 líneas de 2 cajas.
 (*) 8. La barra lateral debe tener un ancho del 30%.
 9. El footer debe tener un ancho del 100% del div que lo contiene
@@ -93,4 +93,24 @@ Ejercicio completo con HTML y CSS
     float: left;
     width: 30%;
     border: 1px solid red;
+}
+
+#contenido .caja
+{
+    width: 40%;
+    height: 250px;
+    background-color: red;
+    border: 5px solid blue ;
+    color: white;
+    float: left;
+    margin: 20px;
+    margin-left: 40px;
+}
+
+#contenido > h1
+{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+    color: #444;
 }
