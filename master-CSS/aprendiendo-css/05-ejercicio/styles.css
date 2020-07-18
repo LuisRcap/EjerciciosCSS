@@ -85,7 +85,6 @@ Ejercicio completo con HTML y CSS
 {
     float: left;
     width: 69%;
-    border: 1px solid green;
 }
 
 #lateral
@@ -93,6 +92,8 @@ Ejercicio completo con HTML y CSS
     float: left;
     width: 30%;
     border: 1px solid red;
+    min-height: 500px;
+    text-align: center;
 }
 
 #contenido .caja
@@ -113,4 +114,15 @@ Ejercicio completo con HTML y CSS
     border-bottom: 1px solid #ccc;
     padding: 15px;
     color: #444;
+}
+
+#footer
+{
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    background-color: #eee;
+    text-align: center;
+    color: #444;
+    border-top: 1px solid #ccc;
 }
