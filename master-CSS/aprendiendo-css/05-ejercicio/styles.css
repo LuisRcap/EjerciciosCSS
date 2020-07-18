@@ -4,7 +4,7 @@ Ejercicio completo con HTML y CSS
 (*) 2. Crear una estructura HTML que cuente con un CONTENEDOR GENERAL,
     CABECERA, MENÚ, BARRA LATERAL, SECCION DE CONTENIDO PRINCIPAL,
     ELEMENTOS DENTRO DEL CONTENIDO PRINCIPAL, Y FOOTER.
-3. Todo el contenido debe estar dentro del contenedor general
+(*) 3. Todo el contenido debe estar dentro del contenedor general
     y su ancho será de 1200px y estar centrado.
 4. El HEADER debe ocupar el 100% del ancho y tener un texto grande
     centrado
@@ -22,4 +22,12 @@ Ejercicio completo con HTML y CSS
     margin: 0px;
     padding: 0px;
     text-decoration: none;
+}
+
+#general
+{
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 20px;
+    border: 1px solid #cccccc;
 }
