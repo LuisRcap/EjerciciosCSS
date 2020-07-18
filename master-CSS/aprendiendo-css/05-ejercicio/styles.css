@@ -6,7 +6,7 @@ Ejercicio completo con HTML y CSS
     ELEMENTOS DENTRO DEL CONTENIDO PRINCIPAL, Y FOOTER.
 (*) 3. Todo el contenido debe estar dentro del contenedor general
     y su ancho será de 1200px y estar centrado.
-4. El HEADER debe ocupar el 100% del ancho y tener un texto grande
+(*) 4. El HEADER debe ocupar el 100% del ancho y tener un texto grande
     centrado
 5. El menú debe tener los elementos uno al lado del otro.
 6. El contenido principal debe tener un ancho del 70%.
@@ -22,6 +22,7 @@ Ejercicio completo con HTML y CSS
     margin: 0px;
     padding: 0px;
     text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #general
@@ -30,4 +31,14 @@ Ejercicio completo con HTML y CSS
     margin: 0px auto;
     margin-top: 20px;
     border: 1px solid #cccccc;
+}
+
+#header
+{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(118, 118, 223, 0.842);
+    color: white;
+    text-align: center;
+    line-height: 90px;
 }
