@@ -10,6 +10,14 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face
+{
+    font-family: "fajalla";
+    src: url("fonts/FjallaOne-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 /*ESTILOS GENERALES*/
 *
 {
@@ -255,7 +263,6 @@ button:active
 /*BARRA LATERAL*/
 #aside, #frase
 {
-    clear: both;
     width: 200px;
     float: left;
     margin: 30px;
@@ -267,6 +274,7 @@ button:active
 
 #frase
 {
+    clear: both;
     width: 180px;
     padding: 10px;
     font-size: 14px;
@@ -339,4 +347,50 @@ button:active
 {
     margin: 0px auto;
     text-align: center;
+}
+
+/*SECCIONES*/
+#sections
+{
+    float: right;
+    width: 75%;
+    font-family: sans-serif, Arial, Helvetica;
+    margin-right: 20px;
+}
+
+#sections .titulo
+{
+    font-size: 24px;
+    font-weight: normal;
+    font-family: "fajalla";
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#sections section
+{
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 4px #c9c9c9;
+    color: #333333;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+#sections .article
+{
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#sections .date
+{
+    color: gray;
+    font-size: 14px;
 }
