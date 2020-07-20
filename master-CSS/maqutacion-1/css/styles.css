@@ -56,6 +56,11 @@ a:hover
     color: #0c73f2 !important;
 }
 
+.orange
+{
+    color: #d69d2a !important;
+}
+
 /*FORMULARIOS*/
 input[type="text"],
 input[type="email"],
@@ -274,7 +279,6 @@ button:active
 
 #frase
 {
-    clear: both;
     width: 180px;
     padding: 10px;
     font-size: 14px;
@@ -365,9 +369,11 @@ button:active
     font-family: "fajalla";
     letter-spacing: 1px;
     text-align: center;
+    margin-top: -20px;
     padding-top: 20px;
     padding-bottom: 10px;
     border-bottom: 1px solid #ccc;
+
 }
 
 #sections section
@@ -393,4 +399,17 @@ button:active
 {
     color: gray;
     font-size: 14px;
+}
+
+#sections .sticker1,
+#sections .sticker2
+{
+    position: absolute;
+    margin-top: -38px;
+    z-index: 0;
+}
+
+#sections .sticker2
+{
+    margin-left: 860px;
 }
