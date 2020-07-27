@@ -210,6 +210,7 @@ body
 {
     width: 300px;
     min-height: 1200px;
+    margin: 20px;
     font-family: "TrebuchetMS";
     float: right;
 }
@@ -229,4 +230,9 @@ aside h3
     padding-left: 15px;
     margin-top: 30px;
     margin-bottom: 15px;
+}
+
+#lateral h3:first-child
+{
+    margin-top: top;
 }
