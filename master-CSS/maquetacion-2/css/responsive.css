@@ -1,0 +1,19 @@
+@media (max-width:1250px)
+{
+    .wrap
+    {
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .card
+    {
+        width: 17%;
+        margin: 1.45%;
+    }
+    
+    .card:first-child
+    {
+        margin-left: 1.25%;
+    }
+}
