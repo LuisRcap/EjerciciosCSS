@@ -750,8 +750,7 @@ button:hover
     overflow: hidden;
 }
 
-#footer .wrap > div,
-#footer .wrap > nav
+#footer .wrap > div
 {
     float: left;
     width: 320px;
