@@ -129,7 +129,6 @@ $wrap: 900px;
 }
 
 //CONDICIONALES - if
-$color-fondo: orange;
 h1
 {
     @if $color-fondo == #ccc
@@ -147,6 +146,14 @@ h1
 }
 
 //FOR
+$contador: 1;
+@for $contador from 1 to 10 
+{
+    .listado ul li:nth-child(#{$contador})
+    {
+        font-size: $contador * 2px;
+    }    
+}
 
 //EACH
 
