@@ -1,5 +1,6 @@
 body
 {
+    --rojo: red;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -17,7 +18,7 @@ body
 .caja
 {
     flex-grow: 1;
-
+    flex-basis: calc((100% / 3) - 68px);
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -30,25 +31,21 @@ body
 
 .red
 {
-    flex-grow: 25;
-    background-color: red;
+    background-color: var(--rojo);
 }
 
 .green
 {
-    flex-grow: 7;
     background-color: green;
 }
 
 .blue
 {
-    flex-grow: 0;
-    flex-shrink: 0;
     background-color: blue;
 }
 
 .orange
 {
-    flex-grow: 7;
+    flex-basis: 100%;
     background-color: orange;
 }
