@@ -28,20 +28,24 @@ body
 
 .red
 {
+    order: 4;
     background-color: red;
 }
 
 .green
 {
+    order: 1;
     background-color: green;
 }
 
 .blue
 {
+    order: 2;
     background-color: blue;
 }
 
 .orange
 {
+    order: 3;
     background-color: orange;
 }
