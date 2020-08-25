@@ -13,12 +13,16 @@ body
     flex-flow: row wrap;
     justify-content: space-evenly;
 
+    height: 600px;
+    align-items: flex-start;
+
     border: 3px solid black;
     padding: 5px;
 }
 
 .caja
 {
+    flex-grow: 1;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -31,20 +35,25 @@ body
 
 .red
 {
+    align-self: flex-start;
     background-color: var(--rojo);
 }
 
 .green
 {
+    /*margin-top: 10%;*/
+    align-self: center;
     background-color: green;
 }
 
 .blue
 {
+    align-self: center;
     background-color: blue;
 }
 
 .orange
 {
+    align-self: flex-end;
     background-color: orange;
 }
