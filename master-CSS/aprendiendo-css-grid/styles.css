@@ -11,6 +11,12 @@ body
 
 /*-----------------------------------------------EJERCICIO COMPLETO-------------------------------------------------*/
 
+#website *
+{
+    margin: 0px;
+    padding: 0px;
+}
+
 #website
 {
     display: grid;
@@ -39,11 +45,26 @@ body
     color: black;
 }
 
+#menu ul
+{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
 #contenido
 {
     grid-column: 1 / 5;
 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+
     background-color: #eee;
+    padding: 20px;
 }
 
 #contenido article
