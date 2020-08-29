@@ -31,10 +31,18 @@ body
 
 #cabecera
 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     grid-column: 1 / 6;
 
     background-color: blue;
     color: white;
+}
+
+#cabecera h1
+{
+    align-self: center;
 }
 
 #menu
