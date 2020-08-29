@@ -25,9 +25,11 @@ body
 
     grid-template-areas: 
         "cabecera cabecera cabecera cabecera cabecera"
-        "lateral lateral lateral lateral laterla"
-        "menu contenido contenido contenido contenido"
+        " menu menu menu menu menu"
+        "lateral contenido contenido contenido contenido"
         "pie pie pie pie pie";
+
+    grid-gap: 20px;
 
     width: 75%;
     height: 1000px;
@@ -54,6 +56,8 @@ body
 #website-areas #menu
 {
     grid-area: menu;
+
+    padding: 20px;
 
     line-height: 70px;
     background-color: lightblue;
