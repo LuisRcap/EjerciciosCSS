@@ -192,6 +192,10 @@
 /*FOOTER*/
 #footer
 {
+    display: grid;
+    grid-template-columns: 1fr 25%;
+    align-items: center;
+    justify-content: start;
 
     height: 120px;
     border-top: 1px solid rgba(225, 225, 226, 0.8);
@@ -200,7 +204,7 @@
 #footer .logo
 {
     opacity: 0.5;
-    text-align: right;
+    text-align: left;
     margin-right: 20px;
 }
 
