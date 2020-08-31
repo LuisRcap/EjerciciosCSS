@@ -224,7 +224,7 @@
                     Alerta
                 </button>
 
-                <button type="button" class="btn-tool btn btn-info mt-3" data-toggle="tooltip" data-placement="top" title="Si das click, sacarás una alerta">
+                <button type="button" class="btn-pop btn btn-info mt-3" data-container="body" data-toggle="popover" data-placement="bottom" title="Hola" data-content="Esto es un popover">
                     Alerta
                 </button>
 
@@ -315,6 +315,8 @@
             });
 
             $(".btn-tool").tooltip();
+
+            $(".btn-pop").popover();
         });
     </script>
 </body>
