@@ -197,6 +197,25 @@
                     <div class="card card-body bg-dark text-white mt-2">Esta es la información oculta</div>
                 </div>
 
+                <!-- BARRA PROGRESO -->
+                <div class="progress mt-5">
+                    <div id="barra-progreso" class="progress-bar bg-success w-0" role="progressbar"></div>
+                </div>
+
+                <script>
+                    var contador = 0
+                    setInterval(function()
+                    {
+                        if(contador < 100)
+                        {
+                            contador ++;
+                            var barra = document.querySelector("#barra-progreso");
+                            barra.style.width = contador + '%';
+                            barra.innerHTML = contador + '%';
+                        }
+                    }, 300)
+                </script>
+
             </div>
 
 
